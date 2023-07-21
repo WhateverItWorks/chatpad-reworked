@@ -1,11 +1,12 @@
 version: '3.7'
 
 services:
-    deiucanta:
-        image: 'ghcr.io/deiucanta/chatpad:latest'
-         container_name: chatpad
-         hostname: chatpad
-         ports:
-          - '127.0.0.1:8082:80'
+    chatpad:
+        container_name: chatpad
+        hostname: chatpad
+        image: ghcr.io/deiucanta/chatpad:latest
+        restart: always
+        ports:
+         - '127.0.0.1:8082:80'
          security_opt:
          - no-new-privileges:true
