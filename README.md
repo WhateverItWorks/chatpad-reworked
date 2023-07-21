@@ -55,7 +55,7 @@ http://localhost:8082
 ChatPad requires api key to be able to used, so i generated one from my anonymous account.
 
 ```
-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
+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
 ```
 
 ## Another Open Source ChatGPT
