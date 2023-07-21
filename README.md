@@ -21,17 +21,21 @@ Crafted with love and care to provide the best experience possible.
 
 ---
 
-## Self-host using Docker
+## Deploy with Docker
+### €⁠20 on [Hetzner Cloud](https://hetzner.cloud/?ref=eLtKhFK70n4h)
+
+### Automatic Installs
+```
+https://github.com/WhateverItWorks/Watchtower
+```
 
 ```
-docker run --name chatpad -d -p 8080:80 ghcr.io/deiucanta/chatpad:latest
+git clone https://github.com/WhateverItWorks/my-chatpad-docker-compose.git ai
+cd ai
+nano docker-compose.yml
+docker-compose up -d --build
 ```
-
-## Self-host using Docker with custom config
-
-```
-docker run --name chatpad -d -v `pwd`/config.json:/usr/share/nginx/html/config.json -p 8080:80 ghcr.io/deiucanta/chatpad:latest
-```
+http://localhost:8082
 
 ## One click Deployments
 
@@ -47,16 +51,22 @@ docker run --name chatpad -d -v `pwd`/config.json:/usr/share/nginx/html/config.j
 <!-- Railway -->
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/Ak6DUw?referralCode=9M8r62)
 
+## API Keys
+ChatPad requires api key to be able to used, so i generated one from my anonymous account.
+
+```
+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
+```
+
+## Another Open Source ChatGPT
+https://whateveritworks.github.io/BetterChatGPT/
+
+## GitHub Repositories AI Search API
+A plugin that allows the user to search for GitHub repositories using ChatGPT
+
+https://github-aiapi.whateveritworks.org/
 
 
-
-## Give Feedback
-
-If you have any feature requests or bug reports, go to [feedback.chatpad.ai](https://feedback.chatpad.ai).
-
-## Contribute
-
-This is a React.js application. Clone the project, run `npm i` and `npm start` and you're good to go.
 
 ## Credits
 
