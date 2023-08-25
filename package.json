@@ -42,7 +42,7 @@
     "eslint-config-next": "13.2.4",
     "gpt-token-utils": "^1.2.0",
     "lodash": "^4.17.21",
-    "nanoid": "^4.0.1",
+    "nanoid": "^4.0.2",
     "next": "13.2.4",
     "openai": "^3.2.1",
     "openai-ext": "^1.2.7",
