@@ -4,9 +4,16 @@ services:
     chatpad:
         container_name: chatpad
         hostname: chatpad
-        image: ghcr.io/deiucanta/chatpad:latest
-        restart: always
-        ports:
-         - '127.0.0.1:8082:80'
-         security_opt:
+        build:
+          context: .
+          dockerfile: Dockerfile
+        cap_drop:
+         - ALL
+        cap_add:
+         - CHOWN
+         - SETGID
+         - SETUID
+        security_opt:
          - no-new-privileges:true
+        ports:
+            - '127.0.0.1:8202:80'
