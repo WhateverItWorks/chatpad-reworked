@@ -16,7 +16,7 @@
     "@types/lodash": "^4.14.198",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
-    "buffer": "^5.7.1",
+    "buffer": "^6.0.3",
     "parcel": "^2.8.3",
     "path-browserify": "^1.0.1",
     "parcel-reporter-static-files-copy": "^1.5.0",
