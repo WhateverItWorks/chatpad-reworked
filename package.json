@@ -43,7 +43,7 @@
     "gpt-token-utils": "^1.2.0",
     "lodash": "^4.17.21",
     "nanoid": "^4.0.2",
-    "next": "13.4.19",
+    "next": "14.0.3",
     "openai": "^4.5.0",
     "openai-ext": "^1.2.7",
     "react": "^18.2.0",
