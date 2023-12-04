@@ -31,7 +31,7 @@
     "@mantine/notifications": "^6.0.1",
     "@tabler/icons-react": "^2.33.0",
     "@tanstack/react-location": "^3.7.4",
-    "@types/node": "20.5.4",
+    "@types/node": "20.10.3",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "dexie": "^3.2.3",
